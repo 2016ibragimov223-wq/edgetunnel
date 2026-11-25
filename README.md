@@ -17,7 +17,7 @@
 Worker `cf-vless` -> **Settings** -> **Variables and Secrets** -> **Add**:
 
 - Name: `UUID`
-- Value: `97585332-3c72-41c2-874e-7fcde5490146`
+- Value: свой UUID (не публикуй его в репозитории)
 
 Save and deploy.
 
@@ -26,7 +26,7 @@ Save and deploy.
 Открыть:
 
 ```
-https://cf-vless.<твой-subdomain>.workers.dev/97585332-3c72-41c2-874e-7fcde5490146
+https://cf-vless.<твой-subdomain>.workers.dev/<UUID>
 ```
 
 Страница вернёт готовую `vless://` ссылку. Импортировать её в **v2rayNG** на Android.
