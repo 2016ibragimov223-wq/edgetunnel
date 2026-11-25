@@ -1,11 +1,8 @@
-name = "cf-worker-ws-dev-0415" # todo
-#name = "cf-worker-connect-test" # todo
-#main = "test/worker/cf-cdn-cgi-trace2.js"
-
-#main = "test/worker/worker-connect-test.js"
+name = "cf-vless"
 main = "src/worker-vless.js"
 
-compatibility_date = "2024-04-15"
+compatibility_date = "2025-01-01"
 
 [vars]
-# UUID = "example_dev_token"
+# UUID задаётся в Cloudflare Dashboard: Worker -> Settings -> Variables and Secrets
+# UUID = "your-uuid-here"
